@@ -1,0 +1,18 @@
+/* utility-first(quando uma classe serve so para uma determida tipo de coisa) Classes utilitarias*/
+
+.grid{
+    display: grid;
+}
+
+/*Mudando fluxo do grid para coluna*/
+.grid-flow-col{
+    grid-auto-flow: column;
+}
+
+.grid-cols-2{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.gap-16{
+    gap: 16px;
+}
