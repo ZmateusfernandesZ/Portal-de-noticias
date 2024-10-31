@@ -18,6 +18,10 @@
 
     }
 
+    img{
+        cursor: pointer;
+    }
+
 
 }
 
@@ -27,3 +31,4 @@
     border-inline: none;
     justify-content: space-between;
 }
+
