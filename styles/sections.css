@@ -32,6 +32,11 @@
             bottom: 0;
             padding: 24px;
 
+            /* "has" referencia se dentro da tag figcaption tem a classe .text-lg, se tiver aplica as propriedades passadas no parametro. */
+            &:has(.text-lg){
+                padding: 12px;
+            }
+
             h2{
                 margin-top: 8px;
             }
